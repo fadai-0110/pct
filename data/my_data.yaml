@@ -1,0 +1,11 @@
+# Custom data for safety helmet
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+#train: E:/666/data/images/train
+#val: E:/666/data/images/val
+train: ./test/data/train_data/data/images/train
+val: ./test/data/train_data/data/images/val
+nc: 7
+
+# class names
+names: ['person', 'bicycle','car','motorcycle','bus','truck','train']
+
